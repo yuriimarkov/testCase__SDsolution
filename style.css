@@ -1,0 +1,85 @@
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: mediumslateblue;
+}
+
+.main {
+    background-color: #fff;
+    padding:20px; 
+    
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.add-user {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.btn-holder.add {
+    width: 15%;
+}
+
+.input-holder {
+    width: calc(70%);
+    display: flex;
+    flex-direction: column;
+}
+
+.input-pair {
+    padding: 10px;
+}
+
+
+
+.user-lists {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.list-item { 
+    width: calc(70%);
+    height: 100%;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 50vh;
+    list-style: none;
+    border: 1px solid ;
+    background-color: aqua;
+    gap: 15px;
+    margin: 0;
+}
+
+
+.filters {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
